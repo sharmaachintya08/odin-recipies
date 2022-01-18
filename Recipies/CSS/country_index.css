@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.navbar{
+    
+    padding:10px;
+    display: flex;
+    background-color:#171717;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .odinrecepies{
+    letter-spacing:2px;
+    font-family: 'The Nautigal', cursive;
+    font-size:70px;
+    font-weight: 900;
+    margin-left:50px;
+    color:#fff;
+}
+.navlinks ul{
+    padding-top:20px;
+    display:flex;
+    list-style-type: none;
+}
+.navlinks ul li{
+    
+    margin-right:20px;
+}
+.navlinks ul li a{
+    flex:1;
+    color:#fff;
+    font-weight:60;
+    font-size: 18px;
+    text-decoration:none;
+    transition:0.6s;
+}
+.navlinks ul li a:hover{
+    color:#22C643
+}
