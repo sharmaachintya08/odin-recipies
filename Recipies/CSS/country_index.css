@@ -92,10 +92,14 @@
     row-gap:60px;
     column-gap:60px;
 }
-.india-grid-box .img{
+.recipeboxes .img{
     width:350px;
     height:350px;
-    background-image:url('../IMAGES/food-india/item1.webp');
+    transition:1s;
+}
+
+.india-grid-box .img{
+    background-image: url('../IMAGES/food-india/item1.webp');
     animation:slider-india 15s infinite linear;
 }
 @keyframes slider-india{
@@ -112,6 +116,200 @@
         background-size: 100% 100%;
     }
 }
-.recipeboxes p{
-    /*text-align:center;*/
+.mexico-grid-box .img{
+    background-image: url('../IMAGES/food-mexico/burritos_625x350_41426062432.webp');
+    animation:slider-mexico 15s infinite linear;
 }
+@keyframes slider-mexico{
+    0%{
+        background-image:url('../IMAGES/food-mexico/burritos_625x350_41426062432.webp');
+        background-size: 100% 100%;
+    }
+    15%{
+        background-image:url('../IMAGES/food-mexico/quesadillas_625x350_51426062477.webp');
+        background-size: 100% 100%;
+    }
+    30%{
+        background-image: url('../IMAGES/food-mexico/tacos_625x350_41426064538.webp');
+        background-size: 100% 100%;
+    }
+}
+.France-grid-box .img{
+    background-image: url('../IMAGES/food-france/15-french-meals-you-have-to-try-image-1-67790-1.jpg.crdownload');
+    animation:slider-France 15s infinite linear;
+}
+@keyframes slider-France{
+    0%{
+        background-image:url('../IMAGES/food-france/15-french-meals-you-have-to-try-image-1-67790-1.jpg.crdownload');
+        background-size: 100% 100%;
+    }
+    15%{
+        background-image:url('../IMAGES/food-france/15-french-meals-you-have-to-try-image-2-67791-1.jpg.crdownload');
+        background-size: 100% 100%;
+    }
+    30%{
+        background-image: url('../IMAGES/food-france/15-french-meals-you-have-to-try-image-3-67793-1.jpg.crdownload');
+        background-size: 100% 100%;
+    }
+}
+.Chinese-grid-box .img{
+    background-image: url('../IMAGES/food-china/kung-pao-chicken.webp');
+    animation:slider-china 15s infinite linear;
+}
+@keyframes slider-china{
+    0%{
+        background-image:url('../IMAGES/food-china/kung-pao-chicken.webp');
+        background-size: 100% 100%;
+    }
+    15%{
+        background-image:url('../IMAGES/food-china/spring-rolls.webp');
+        background-size: 100% 100%;
+    }
+    30%{
+        background-image: url('../IMAGES/food-china/sweet-and-sour-pork.webp');
+        background-size: 100% 100%;
+    }
+}
+.vietnam-grid-box .img{
+    background-image: url('../IMAGES/food-vietnam/http___cdn.cnn.com_cnnnext_dam_assets_170504142019-pho.jpg');
+    animation:slider-vietnam 15s infinite linear;
+}
+@keyframes slider-vietnam{
+    0%{
+        background-image:url('../IMAGES/food-vietnam/http___cdn.cnn.com_cnnnext_dam_assets_170504142019-pho.jpg');
+        background-size: 100% 100%;
+    }
+    15%{
+        background-image:url('../IMAGES/food-vietnam/http___cdn.cnn.com_cnnnext_dam_assets_170504142339-banh-xeo.jpg');
+        background-size: 100% 100%;
+    }
+    30%{
+        background-image: url('../IMAGES/food-vietnam/http___cdn.cnn.com_cnnnext_dam_assets_170504152158-cha-ca.jpg');
+        background-size: 100% 100%;
+    }
+}
+.columbia-grid-box .img{
+    background-image: url('../IMAGES/food-columbia/bandeja-paisa-2.jpg');
+    animation:slider-columbia 15s infinite linear;
+}
+@keyframes slider-columbia{
+    0%{
+        background-image:url('../IMAGES/food-columbia/bandeja-paisa-2.jpg');
+        background-size: 100% 100%;
+    }
+    15%{
+        background-image:url('../IMAGES/food-columbia/corn-457153_1920-610x407.jpg');
+        background-size: 100% 100%;
+    }
+    30%{
+        background-image: url('../IMAGES/food-columbia/sancocho.jpg');
+        background-size: 100% 100%;
+    }
+}
+.canada-grid-box .img{
+    background-image: url('../IMAGES/food-canada/Ultimate-Guide-to-Canadian-Food-Bannock-@torebergengen.jpg');
+    animation:slider-canada 15s infinite linear;
+}
+@keyframes slider-canada{
+    0%{
+        background-image:url('../IMAGES/food-canada/Ultimate-Guide-to-Canadian-Food-Bannock-@torebergengen.jpg');
+        background-size: 100% 100%;
+    }
+    15%{
+        background-image:url('../IMAGES/food-canada/Ultimate-Guide-to-Canadian-Food-Butter-Tarts-@karyne.villeneuve.jpg');
+        background-size: 100% 100%;
+    }
+    30%{
+        background-image: url('../IMAGES/food-canada/Ultimate-Guide-to-Canadian-Food-Poutine-@shannondidwhat.jpg');
+        background-size: 100% 100%;
+    }
+}
+.pakistan-grid-box .img{
+    background-image: url('../IMAGES/food-pakistan/2d6acb7678de444498923f270671f6aa.jpg');
+    animation:slider-pakistan 15s infinite linear;
+}
+@keyframes slider-pakistan{
+    0%{
+        background-image:url('../IMAGES/food-pakistan/2d6acb7678de444498923f270671f6aa.jpg');
+        background-size: 100% 100%;
+    }
+    15%{
+        background-image:url('../IMAGES/food-pakistan/7053f1036e63478db68ce8ba7583b39e.jpg');
+        background-size: 100% 100%;
+    }
+    30%{
+        background-image: url('../IMAGES/food-pakistan/a115b8b6115f4ea580599eb24a369408.jpg');
+        background-size: 100% 100%;
+    }
+}
+.iraq-grid-box .img{
+    background-image: url('../IMAGES/food-iraq/Bamia-–-Stewed-Meat-with-Okra.jpg');
+    animation:slider-iraq 15s infinite linear;
+}
+@keyframes slider-iraq{
+    0%{
+        background-image:url('../IMAGES/food-iraq/Bamia-–-Stewed-Meat-with-Okra.jpg');
+        background-size: 100% 100%;
+    }
+    15%{
+        background-image:url('../IMAGES/food-iraq/Iraqi-Biryani-–-Traditional-Rice-Meat-Dish-640x427.jpg');
+        background-size: 100% 100%;
+    }
+    30%{
+        background-image: url('../IMAGES/food-iraq/Iraqi-Keema-–-Minced-Meat-640x493.jpg');
+        background-size: 100% 100%;
+    }
+}
+.italy-grid-box .img{
+    background-image: url('../IMAGES/food-italy/caprese-salad_625x350_51506417724.webp');
+    animation:slider-italy 15s infinite linear;
+}
+@keyframes slider-italy{
+    0%{
+        background-image:url('../IMAGES/food-italy/caprese-salad_625x350_51506417724.webp');
+        background-size: 100% 100%;
+    }
+    15%{
+        background-image:url('../IMAGES/food-italy/dih4ifhg_pasta_625x300_22_April_20.webp');
+        background-size: 100% 100%;
+    }
+    30%{
+        background-image: url('../IMAGES/food-italy/panzenella_600x300_71506417795.webp');
+        background-size: 100% 100%;
+    }
+}
+.recipeboxes p{
+    text-decoration:none;
+    text-align:center;
+}
+
+.footer{
+    position:relative;
+    margin-top:1970px;
+    height:50px;
+    background-color:black;
+}
+.footer .details{
+    display:flex;
+    width:1600px;
+}
+.footer .details .email,
+.phone{
+    position:relative;
+    left:15%;
+    text-align:center;
+    display:flex;
+    flex:1;
+    font-size:20px;
+    color:white;
+    letter-spacing: 1px;
+    margin-top:15px;
+}
+.footer .details .email p{
+    margin-left:5px;
+}
+.footer .details .phone p{
+    margin-left:5px;
+}
+
+
