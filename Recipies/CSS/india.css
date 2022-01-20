@@ -1,0 +1,155 @@
+*{
+    border: 2px solid green;
+    margin:0px;
+    padding:0px;
+}
+.navbar{
+    
+    padding:10px;
+    display: flex;
+    background-color:#171717;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .odinrecepies{
+    letter-spacing:2px;
+    font-family: 'The Nautigal', cursive;
+    font-size:70px;
+    font-weight: 900;
+    margin-left:50px;
+    color:#fff;
+}
+.navlinks ul{
+    padding-top:20px;
+    display:flex;
+    list-style-type: none;
+}
+.navlinks ul li{
+    
+    margin-right:20px;
+}
+.navlinks ul li a{
+    flex:1;
+    color:#fff;
+    font-weight:60;
+    font-size: 18px;
+    text-decoration:none;
+    transition:0.6s;
+}
+.navlinks ul li a:hover{
+    color:#22C643
+}
+.search-box{
+    background-color: orange;
+    position:absolute;
+    top:32%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height:40px;
+    border-radius:40px;
+}
+.search-btn{
+    background-color:black;
+    color:white;
+    float:right;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:none;
+}
+.search-box:hover > .search-txt{
+    width:400px;
+    padding:0 6px;
+
+}
+.search-txt{
+    border:none;
+    background:none;
+    outline:none;
+    float:left;
+    padding:0;
+    color:white;
+    font-size:16px;
+    transition:0.4s;
+    line-height:50px;
+    width:0px;
+    color:#171717
+}
+.country_heading{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    top:40px;
+    gap:5px;
+}
+.country_heading h1{
+    font-size:70px;
+    letter-spacing: 2px;
+}
+.country_heading img{
+    width:70px;
+    height:70px;
+}
+.recipebox img:hover{
+    background-color:red;
+}
+.recipebox:hover > p{
+    position:relative;
+    bottom:50%;
+
+}
+.recipebox-background{
+    position:relative;
+    top:800px;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display:grid;
+    width:fit-content;
+    height:fit-content;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    row-gap:60px;
+    column-gap:60px;
+}
+.recipebox img{
+    width:350px;
+    height:350px;
+    border-radius: 10px;
+    transition:0.9s;
+}
+.recipebox p{
+    text-decoration:none;
+    text-align:center;
+}
+.footer{
+    position:relative;
+    margin-top:250px;
+    height:50px;
+    background-color:black;
+}
+.footer .details{
+    display:flex;
+    width:1600px;
+}
+.footer .details .email,
+.phone{
+    position:relative;
+    left:15%;
+    text-align:center;
+    display:flex;
+    flex:1;
+    font-size:20px;
+    color:white;
+    letter-spacing: 1px;
+    margin-top:15px;
+}
+.footer .details .email p{
+    margin-left:5px;
+}
+.footer .details .phone p{
+    margin-left:5px;
+}

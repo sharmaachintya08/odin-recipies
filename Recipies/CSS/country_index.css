@@ -91,10 +91,12 @@
     grid-template-columns:repeat(3,1fr);
     row-gap:60px;
     column-gap:60px;
+    text-decoration:none;
 }
 .recipeboxes .img{
     width:350px;
     height:350px;
+    border-radius:10px;
     transition:1s;
 }
 
