@@ -1,5 +1,4 @@
 *{
-    border: 2px solid green;
     margin:0px;
     padding:0px;
 }
@@ -95,12 +94,11 @@
     height:70px;
 }
 .recipebox img:hover{
-    background-color:red;
+    background-color:rgba(245, 203, 167,0.50);
 }
 .recipebox:hover > p{
     position:relative;
     bottom:50%;
-
 }
 .recipebox-background{
     position:relative;
@@ -122,6 +120,9 @@
     transition:0.9s;
 }
 .recipebox p{
+    font-size:20px;
+    background-color: black;
+    color:white;
     text-decoration:none;
     text-align:center;
 }

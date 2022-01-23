@@ -12,9 +12,9 @@
 }
 .navbar .odinrecepies{
     letter-spacing:2px;
-    font-family: 'The Nautigal', cursive;
+    font-family: 'Neonderthaw', cursive;
     font-size:70px;
-    font-weight: 900;
+    font-weight:300;
     margin-left:50px;
     color:#fff;
 }
@@ -46,7 +46,7 @@
     left:50%;
     transform:translate(-50%,-50%);
     text-align:center;
-    background:#E0C568FF;
+    background:#71BC78;
 }
 .quote p{
     margin:20px 0 20px;
@@ -54,7 +54,7 @@
     font-family: 'Dancing Script', cursive;
 }
 .quote:hover{
-    background-color:#E94B3CFF;
+    background-color:#78DBE2;
     box-shadow:0px 10px 80px -30px  ;
 }
 .quote2{
@@ -80,7 +80,7 @@
     left:50%;
     transform:translate(-50%,-50%);
     text-align:center;
-    background:#ADEFD1FF;
+    background:#EFCD88;
 }
 .quote3 p{
     margin:20px 0 20px;
@@ -88,7 +88,7 @@
     font-family: 'Dancing Script', cursive;
 }
 .quote3:hover{
-    background-color:#603F83FF;
+    background-color:#fff5ee;
     box-shadow:0px 10px 80px -30px  ;
 }
 .quote2:hover{
