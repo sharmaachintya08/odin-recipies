@@ -1,5 +1,5 @@
 *{
-    border : 2px solid green;
+    
     margin: 0px;
     padding: 0px;
 }
@@ -43,15 +43,21 @@
     display:flex;
     position:absolute;
     width:70%;
-    top:55%;
+    top:80%;
     left:50%;
     transform:translate(-50%,-50%);
-    gap:5px;
+    gap:50px;
+    padding-bottom:40px;
+}
+.details:hover > p{
+    background-color:rgba();
+    box-shadow: 10px 10px 10px 0px #888888;
 }
 .details p{
     flex:1 0 ;
     text-align:center;  
-    font-size:24px;  
+    font-size:30px;  
+    line-height:50px;
 }
 .details img{
     height:300px;
